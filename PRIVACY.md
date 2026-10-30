@@ -1,8 +1,8 @@
 # Video2Gif privacy policy
 
-Last updated: October 29, 2026.
+Last updated: October 30, 2026.
 
-This policy covers Video2Gif, bundle ID `com.xzwr.app.video2gif`, native version 1.6.0 starting with TestFlight build 202610291501. It covers the app, not websites or destinations that you open separately. Earlier TestFlight build 202610281711 did not include ads. The older App Store version 1.5 uses the [earlier policy](https://yourskills.top/privacy#video-2-gif), including its app-open ads and tracking permission request.
+This policy covers Video2Gif, bundle ID `com.xzwr.app.video2gif`, native versions 1.6.0 (starting with TestFlight build 202610291501) and 2.0.0. It covers the app, not websites or destinations that you open separately. Earlier TestFlight build 202610281711 did not include ads. The older App Store version 1.5 uses the [earlier policy](https://yourskills.top/privacy#video-2-gif), including its app-open ads and tracking permission request.
 
 ## Your videos, photos and GIFs
 
