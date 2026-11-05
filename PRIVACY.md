@@ -1,12 +1,14 @@
 # Video2Gif privacy policy
 
-Last updated: October 30, 2026.
+Last updated: November 5, 2026.
 
-This policy covers Video2Gif, bundle ID `com.xzwr.app.video2gif`, native versions 1.6.0 (starting with TestFlight build 202610291501) and 2.0.0. It covers the app, not websites or destinations that you open separately. Earlier TestFlight build 202610281711 did not include ads. The older App Store version 1.5 uses the [earlier policy](https://yourskills.top/privacy#video-2-gif), including its app-open ads and tracking permission request.
+This policy covers Video2Gif, bundle ID `com.xzwr.app.video2gif`, native versions 1.6.0 (starting with TestFlight build 202610291501), 2.0.0 and the 2.1.0 internal TestFlight demo. It covers the app, not websites or destinations that you open separately. Earlier TestFlight build 202610281711 did not include ads. The older App Store version 1.5 uses the [earlier policy](https://yourskills.top/privacy#video-2-gif), including its app-open ads and tracking permission request.
 
 ## Your videos, photos and GIFs
 
 Selecting, editing, previewing and converting media happens on your device. We do not upload your selected videos, photos, generated GIFs or editing settings to developer-operated servers or send them to Google advertising services. The app has no user account, cloud editor, developer analytics service or AI API integration.
+
+The 2.1.0 internal TestFlight demo includes an AI-labelled text-effects tab with a clearly marked fixed sample. It does not call an AI service: prompts and text effects stay on your device, and generating the sample does not purchase or consume paid credits.
 
 The system Photos and Files pickers give the app access to the items you select. Selected source files, settings and generated GIFs may be stored in the app's private storage. Saving a GIF to Photos requests permission to add it to your library. Sharing sends the file to the destination you choose. The app does not record camera footage or request microphone, contacts or precise-location access.
 
@@ -14,7 +16,7 @@ Your system or file provider may download cloud-stored items when you select the
 
 ## Advertising and privacy choices
 
-This version uses Google Mobile Ads (AdMob) and Google's User Messaging Platform (UMP). Native ads can appear while a GIF is generated. This version does not show app-open, interstitial or rewarded ads. Advertising and consent requests use the network; local GIF creation does not depend on an ad being available.
+This version uses Google Mobile Ads (AdMob) and Google's User Messaging Platform (UMP). Native ads can appear while a GIF is generated; the 2.1.0 internal demo also uses Google's test ads while preparing a text-effect preview. This version does not show app-open, interstitial or rewarded ads. Advertising and consent requests use the network; local GIF creation does not depend on an ad being available.
 
 Google may process IP addresses and approximate location inferred from them; device or app identifiers; ad impressions and interactions; and crash, performance and diagnostic data. These support ad delivery and measurement, analytics, fraud prevention and consent functionality. Some identifiers and ad interaction data can be linked to a device or user. Google processes this information under [Google's Privacy Policy](https://policies.google.com/privacy) and describes its SDK practices in its [iOS data-disclosure guide](https://developers.google.com/admob/ios/privacy/data-disclosure).
 
