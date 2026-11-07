@@ -1,10 +1,10 @@
 # Video2Gif privacy policy
 
-Last updated November 6, 2026.
+Last updated November 7, 2026.
 
 This policy covers the native Video2Gif app (`com.xzwr.app.video2gif`), from TestFlight build 202610291501 of version 1.6.0 through version 2.1.0. The optional online text-effects feature applies to builds that offer online generation. The [earlier policy](https://yourskills.top/privacy#video-2-gif) covers version 1.5.
 
-Version 2.1.0 internal TestFlight build 202611060240 offers on-device text editing and GIF creation with test ads. Apple sign-in, credit purchases and online effect generation are disabled in this build.
+Version 2.1.0 adds optional online text effects to on-device GIF editing. In the US storefront, you can sign in with Apple and buy credits for these effects. The included text styles and local GIF tools are available without an account.
 
 ## Your videos, photos and GIFs
 
@@ -16,15 +16,17 @@ Your system or file provider may download cloud-stored items when you select the
 
 ## Optional AI text effects
 
-When you tap Generate, Video2Gif sends your prompt, the words in the selected text layer, its font settings, output dimensions, duration and frame rate to our service. We send those fields to Google’s Vertex AI to create editable animation instructions. Use a prompt and text that you are comfortable sharing with Google.
+Before your first online generation, the AI tab asks for permission to share your caption and prompt with Google. When you allow sharing and choose to create an effect, Video2Gif sends the caption, prompt, font settings, output dimensions, duration and frame rate to our service. Our service sends these fields to Google’s Vertex AI to create editable animation instructions. You can withdraw this permission from Privacy in the AI tab. Buying credits does not send your caption or prompt.
 
 The app also sends our service a transparent image of the letters and their layout, including placement, outline, background and timing. Our service uses these to check whether the effect moves visibly before charging one credit. Only our verification service receives these images and layout details. It processes them in memory and discards them after verification.
 
-Sign in with Apple links your AI balance to a Firebase account. Firebase App Check and Apple App Attest help verify that a request comes from our app. Apple processes purchases. Our service verifies the signed transaction and keeps the transaction reference, credits and refund status. It stores completed animation instructions and the identifiers needed to retrieve them under your account. Our task records omit the original prompt, text and letter images.
+Sign in with Apple links your AI balance to a Firebase account. Firebase App Check and Apple App Attest help verify that a request comes from our app. Apple processes purchases. Our service verifies Apple’s signed app download and purchase records to assign a purchase to the correct account and store environment. It keeps the purchase reference, account binding, credits and refund status so you can recover a balance and a transaction is credited only once. It stores completed animation instructions and the identifiers needed to retrieve them under your account.
+
+For new AI requests, our service retains the prompt, selected words, font settings, output dimensions, duration and frame rate with the generated result. If you tap thumbs up or thumbs down, we save your latest rating with that request to investigate problems and improve effect generation. You can change or remove the rating. Feedback does not spend credits or trigger another generation. These task records do not contain your videos, photos, letter images or layout positions and are removed with your AI account.
 
 ## Advertising and privacy choices
 
-This version uses Google Mobile Ads (AdMob) and Google's User Messaging Platform (UMP). Native ads can appear while the app creates a GIF or generates an AI text effect. Internal TestFlight builds use test ads. This version does not show app-open, interstitial or rewarded ads. Advertising and consent requests use the network; local GIF creation does not depend on an ad being available.
+This version uses Google Mobile Ads (AdMob) and Google's User Messaging Platform (UMP). Native ads can appear while the app creates a GIF or generates an AI text effect. Earlier internal test builds used test ads. The App Store version can display ads supplied by AdMob. This version does not show app-open, interstitial or rewarded ads. Advertising and consent requests use the network; local GIF creation does not depend on an ad being available.
 
 Google may process IP addresses and approximate location inferred from them; device or app identifiers; ad impressions and interactions; and crash, performance and diagnostic data. These support ad delivery and measurement, analytics, fraud prevention and consent functionality. Some identifiers and ad interaction data can be linked to a device or user. Google processes this information under [Google's Privacy Policy](https://policies.google.com/privacy) and describes its SDK practices in its [iOS data-disclosure guide](https://developers.google.com/admob/ios/privacy/data-disclosure).
 
@@ -36,7 +38,7 @@ This version does not initiate an Apple App Tracking Transparency permission pro
 
 Local files remain on your device until removed by an available app control or by deleting the app. Unexported edits are not offered as saved drafts. Files left by older versions remain in the app's local storage; this version does not browse, migrate or export those old projects. Updating the app does not deliberately erase them.
 
-Deleting the app removes its local data. Copies already saved to Photos, shared elsewhere or included in system backups must be managed separately through those services. Deleting the app or changing an ad preference does not automatically delete data Google already received; Google's policy explains its retention and privacy controls. For help deleting an AI account, use the contact address below. Removing the app from your phone leaves your AI account and credit balance in place. Account deletion removes the balance and saved online effects. We retain purchase references needed to prevent the same transaction being credited again. Apple manages its own purchase records.
+Deleting the app removes its local data. Copies already saved to Photos, shared elsewhere or included in system backups must be managed separately through those services. Deleting the app or changing an ad preference does not automatically delete data Google already received; Google's policy explains its retention and privacy controls. Choose Delete AI account in the AI account settings to request deletion. Contact us below if you need help. Removing the app from your phone leaves your AI account and credit balance in place. Account deletion removes the balance and saved online effects. We retain purchase references needed to prevent the same transaction being credited again. Apple manages its own purchase records.
 
 ## TestFlight, external links and contact
 
